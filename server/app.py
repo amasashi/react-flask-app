@@ -17,11 +17,11 @@ def index():
     json_data = request.get_json()
     user_id = json_data.get('user_id')
     password = json_data.get('password')
-    if user_id == 'masashi07':
-        if password == 'masashi':
+    if user_id == 'ZZZZZ':
+        if password == 'ZZZZZZZ':
             return {
-                'user': 'masashi07',
-                'mail': 'masashi07@gmail.com'
+                'user': 'ZZZZZ',
+                'mail': 'ZZZZZZZ'
             }, 200
         else:
             return {}, 400
